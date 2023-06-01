@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif!important;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.mainscreen
+{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    background-color: #DFDBE5;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEA8PEA8PDxAPDw8PDw8PDw8NDQ0PFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFRAQFS0dFR0tLS0tLSstLS0tLSsrLS0tLS0tKy0tLSstLS0tLTctKy0tLS0tLS0tNystLSstKys3Lf/AABEIALoBDwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgADB//EACQQAQEBAQABAwQCAwAAAAAAAAABEQIxEiFBA1FhgdHwcaGx/8QAGQEBAQEAAwAAAAAAAAAAAAAAAAECAwQF/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERIQL/2gAMAwEAAhEDEQA/APUfTsVOJ7fgSH0+/wCnmO8fQ6YqcluRnU8w+lWNmNSJo9JnKpC1jOpsE5XjYYamcN6VtFxNR1E3l06aRLNXU+n9rkZosRvSn0rZcETll6lBpBeVwGCGxVgQDWNhFGJsVReQiPS3UUnyy0MwYqwJRFRjp051K0uRQ56+6p1/flEXyRzTrbJkMjNyqGtIDioTIJFRYMzDVQ4DQBaQWK5UbBaUgGODEUi1qmcgf+BUjWJgmRlDADHACcY9CMqmiuiKKi8ufTs51itNytzX9OU1XSKk/AwtsVWNIJSrLGJVKQJxJjSGCYWAYqQMBaMFGrM0AViwBlAGTcUmlDQzIra1ZgTQpsTAJqqnEVFjnZ5dek4xWnOSunCavmpItWZE6qNRkszNIIuJPNEU2sa0gikRWkqkUi1UbRvuQgQzYK2tGwxUZiAZqzAGONYDBgDVJoZUWs1glRU9pq+kWs1qC+FcxKoyoi+Y0ipGpEpwwFpkWnmthgjGhr9gCkddfC5pKFNra1W0adESGkCwmlQXyWaQRmZNpaKZiowpSDMxBNiVufUxmqR2qRPSVYiI7p6uOdszz/tx2tSKrCX8GorrDImRUckZMUlUixKYYCqEBtNG9hNv98jmOmJOlTozTSYNzMLJrQqMmmGhYHVQpsUAEhaMgdFbG1RmZIFHSmqVRiP2vU2JRPTj9Tj58V3sR2x6mtyuci/SiL5Zir5ikluIVQGKzWUIpUTBGKB5iqmFoSd/LSNUGtFUmz5UOs0EBTBoBIZUZtCoArNWAaCEBKNXibBUWmHG1kTU9Ktc+qlaiZc9lxEi2I0rVRPJjbKoRDKsZMIKjCwwmCSxXBmZlRmpHUASjTBiKphWih/YlZgNYMIxYYDVoDEUUGilE7pacisiek1dR1ErUc4uOa5WI0vlUiFtRDpZo0yVROHViFhGBTCVpWtDrURrQLCUiMGjUUdUSqFjIYdDaqM1bWqhBYBjRtForJ6jStayDmtRPPkoDqufXWeV2I6rNajmvlzdOYxGlRcRFNRFGBo2lVTygyiKaI1QKYaYqBsY6DQiFRmA6A2sjVRAitqbSitKTAIGtaaKZGtKaHph1UzuXc++Jb1cItxggjpq3SemGk8rvSIYkVf07VDTa0ipW0QxpGUNa1QaqJVEKY1rMqFo2ARUKTrUCK1otAVpQGVVWFoBeijWNG1gL1EMI3y0rKrVHKqLUpGqTanWao6FrXlkVPKrURTK1c6VK5nhZUdNMqIeWoi2SyhionlSxDplRDFTF6NSwKYfyQDAg1jSigDRDQinRegYg2Wicz/K0rg3VGkfICpPSazVFotZzt92WpHS1HbVFS0x/9k=");
+    color:black;
+}
+
+.card {
+	width: 60rem;
+    margin: auto;
+    background: white;
+    position:center;
+    align-self: center;
+    top: 50rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #3535358c;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.leftside {
+	background: #030303;
+	width: 25rem;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.product {
+    object-fit: cover;
+	width: 20em;
+    height: 20em;
+    border-radius: 100%;
+}
+
+.rightside {
+    background-color: #ffffff;
+	width: 35rem;
+	border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem 2rem 3rem 3rem;
+}
+
+p{
+    display:block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox
+{
+    color:#030303;
+	width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+  outline:none;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+
+.button{
+    background: linear-gradient(
+135deg
+, #753370 0%, #298096 100%);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:100%;
+    letter-spacing: .11rem;
+    outline:none;
+}
+
+.button:hover
+{
+	transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card{
+        flex-direction: column;
+        width: auto;
+
+    }
+
+    .leftside{
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+      border-top-right-radius:0;
+      border-radius:0;
+    }
+
+    .rightside{
+        width:auto;
+        border-bottom-left-radius: 1.5rem;
+        padding:0.5rem 3rem 3rem 2rem;
+      border-radius:0;
+    }
+}

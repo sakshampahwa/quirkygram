@@ -1,0 +1,7 @@
+<img src="/assets/1.jpg" height="550px" width="100%"><br><br>
+<%= form_for(:search,:url=>"/gallery/search") do |f| %>
+    Search <input type="text" name="search">
+    <input type="submit" class="btn btn-dark" value="Go">
+<% end %><br/>
+
+<%= render 'image_gallery'%>

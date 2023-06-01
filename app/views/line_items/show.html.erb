@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cart:</strong>
+  <%= @line_item.cart_id %>
+</p>
+
+<p>
+  <strong>Store:</strong>
+  <%= @line_item.store_id %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @line_item.quantity %>
+</p>
+
+<p>
+  <strong>Store Price:</strong>
+  ₹<%= @line_item.store.price %>
+</p>
+
+<p>
+  <strong>Store Name:</strong>
+  <%= @line_item.store.name %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  ₹<%= @line_item.total_price %>
+</p>
+
+<%= link_to 'Next', line_items_path %>

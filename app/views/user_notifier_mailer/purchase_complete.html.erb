@@ -1,0 +1,10 @@
+Hello,<br>
+Thank you for shopping with us.
+Your order has been processed.
+Here are the details:<br>
+<% @cart.line_items.each do |item|%>
+    Product Name: <%= item.store.name%><br>
+    Product Price:₹<%=(item.store.price)%><br>
+<% end %><br>
+Thanks and Regards<br>
+Quirky Gram
